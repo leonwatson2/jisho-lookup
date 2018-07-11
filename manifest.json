@@ -1,0 +1,26 @@
+{
+    "manifest_version": 2,
+  
+    "name": "Jisho Lookup",
+    "description": "This extension lookups highlighted terms on the site jisho.org",
+    "version": "1.0",
+  
+    "browser_action": {
+     "default_icon": "icon.png",
+     "default_popup": "popup.html"
+    },
+    "background" : {
+        "scripts" : ["popup.js"]
+    },
+    "icons" : {
+        "16":"icons/16x16icon.png",
+        "48":"icons/48x48icon.png",
+        "128":"icons/128x128icon.png"
+    },
+    "permissions": [
+    "contextMenus", 
+      "tabs",
+     "activeTab"
+     ]
+  }
+  
